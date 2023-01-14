@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Purchase form</title>
+</head>
+<body>
+  <header>
+    <a class="logopic" href="index.html">
+      <img src="image/logo.jpg">
+      </a>
+    <a href="index.html" class="logo">Xciting Cars</a>
+    <nav class="navi">
+        <a href="index.html">Home</a>
+        <a href="cars.html">Cars</a>
+        <a href="purchase.html" style="background-color: rgb(199, 198, 198);">Purchase</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+ </header>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <form action="http://localhost:8080/server/myserver.php" method="post" class="myform">
+        <p class="myformname">Xciting Cars Purchasing Order
+        </p>
+        <label>Car Manufacturer:</label>
+        <input type="text" name="manufacturer" required="required"/>
+        <br />
+        <label>Car Model Name:</label>
+        <input type="text" name="model" required="required"/>
+        <br />
+        <label>Your Address:</label>
+        <input type="text" name="address" required="required"/>
+        <br />
+        <label>Your Email:</label>
+        <input type="text" name="email" required="required"/>
+        <br />
+        <label>Contact Number</label>
+        <input type="text" name="number" required="required"/>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
